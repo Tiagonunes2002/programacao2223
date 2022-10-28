@@ -122,7 +122,7 @@ int main(void) {
 		else {
 		        printf("\n ---O numero inserido não coresponde a um numero do mês. ---- ");
 					}
-*/
+
 
 		//	=================   exercicio 4  ====================
 
@@ -171,6 +171,37 @@ int main(void) {
 
 					printf("\n o resultado e : %f", resultado);
 		}
+	    */
+	    //	=================   exercicio 8  ====================
+
+    				printf("_____________ EXERCICIO 8  __________\n\n");
+
+	  int ano;
+
+	  puts("Indique um ano :");
+
+	  scanf( "%i", ano );
+
+
+	  if( ano % 400 == 0 ) {
+
+		  printf("E um ano bissexto.");
+
+	}
+
+	  	  else if( ano % 4 == 0 ) {
+
+		  		  printf("E um ano bissexto.");
+	}
+		 else if( ano % 100 != 0 ) {
+
+		 		  printf("E um ano bissexto.");
+	}
+
+		 else {
+
+				  printf(" Não e um ano bissexto.");
+				 	 }
 	return 0;
 
 
