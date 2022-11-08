@@ -74,3 +74,16 @@ int main(void) {
 
 	return 0;
 }
+
+
+
+
+void quadradoA (int width, ){
+
+for(int i = 0; i< width;i++){
+
+	printf("%c", "*")
+}
+
+}
+
