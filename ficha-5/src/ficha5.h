@@ -10,7 +10,11 @@
 
 void levantamento(float qlevantar);
 
+<<<<<<< Updated upstream
 void pin2();
+=======
+
+>>>>>>> Stashed changes
 
 
 #endif /* FICHA5_H_ */

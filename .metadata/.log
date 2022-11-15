@@ -911,6 +911,7 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.preferen
 	at org.eclipse.linuxtools.internal.rpm.ui.editor.RpmPackageProposalsList.<init>(RpmPackageProposalsList.java:47)
 	at org.eclipse.linuxtools.internal.rpm.ui.editor.RpmPackageBuildProposalsJob.run(RpmPackageBuildProposalsJob.java:122)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< Updated upstream
 !SESSION 2022-11-15 09:24:44.849 -----------------------------------------------
 eclipse.buildId=4.21.0.I20210906-0500
 java.version=16.0.2
@@ -1113,3 +1114,5 @@ java.io.FileNotFoundException: C:\Users\2082322\Documents\GitHub\programacao2223
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+=======
+>>>>>>> Stashed changes

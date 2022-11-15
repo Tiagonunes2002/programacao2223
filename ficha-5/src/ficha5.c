@@ -5,8 +5,13 @@
  *      Author: 2082322
  */
 
+<<<<<<< Updated upstream
 
            //Alinea 1
+=======
+#include "ficha5.h"
+
+>>>>>>> Stashed changes
 void levantamento(float qlevantar){
 
 	float saldo = 4000;
@@ -15,7 +20,11 @@ void levantamento(float qlevantar){
 
 		float srestante = saldo - qlevantar;
 
+<<<<<<< Updated upstream
 		printf("O seu levantamento foi feito com sucesso, o saldo disponivel e de %f EUROS", srestante);
+=======
+				printf("O seu levantamento foi feito com sucesso, o saldo disponivel e de %f EUROS", srestante);
+>>>>>>> Stashed changes
 	}
 
 	else{
@@ -23,6 +32,7 @@ void levantamento(float qlevantar){
 		printf("Nao foi possivel ( o seu saldo e inferior a %f EUROS),o seu saldo e de %f EUROS", qlevantar, saldo);
 	}
 }
+<<<<<<< Updated upstream
 
         //Alinea 2
 void pin2(){
@@ -52,3 +62,5 @@ void pin2(){
 
 
 
+=======
+>>>>>>> Stashed changes
