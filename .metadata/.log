@@ -471,6 +471,7 @@ java.io.IOException: Cannot run program "valgrind": Launching failed
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.cdt.core 4 0 2022-11-11 18:04:08.912
 !MESSAGE Error: Cannot run program "g++": Launching failed
 !STACK 0
@@ -919,6 +920,11 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.preferen
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
 !SESSION 2022-11-11 17:18:39.353 -----------------------------------------------
 >>>>>>> Stashed changes
+=======
+!ENTRY org.eclipse.core.jobs 2 2 2022-11-04 19:51:02.491
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2022-11-11 17:18:39.353 -----------------------------------------------
+>>>>>>> Stashed changes
 eclipse.buildId=4.21.0.I20210906-0500
 java.version=16.0.2
 java.vendor=Oracle Corporation
@@ -927,7 +933,11 @@ Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.egit.ui 2 0 2022-11-15 09:24:56.491
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-11 17:20:21.649
+>>>>>>> Stashed changes
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2022-11-11 17:20:21.649
 >>>>>>> Stashed changes
@@ -937,6 +947,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 !ENTRY org.eclipse.cdt.qt.core 4 0 2022-11-15 09:26:11.799
 =======
@@ -3271,12 +3282,16 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/ficha-5/src/f
 !MESSAGE Cannot determine URI for '/ficha-5/src/ficha-5.c'.
 
 !ENTRY org.eclipse.cdt.qt.core 4 0 2022-11-18 17:18:12.699
+=======
+!ENTRY org.eclipse.cdt.qt.core 4 0 2022-11-11 17:20:21.750
+>>>>>>> Stashed changes
 !MESSAGE Error: Nashorn script engine is not available in Java 15 and above. The QML Analyzer is not supported.
 !STACK 0
 javax.script.ScriptException: Nashorn script engine is not available in Java 15 and above. The QML Analyzer is not supported.
 	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.load(QMLAnalyzer.java:55)
 	at org.eclipse.cdt.internal.qt.core.Activator$1.run(Activator.java:72)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< Updated upstream
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-11-18 17:18:12.765
 !MESSAGE Indexed 'ficha-5' (0 sources, 0 headers) in 0,002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
@@ -4375,3 +4390,5 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.preferen
 	at org.eclipse.linuxtools.internal.rpm.ui.editor.RpmPackageProposalsList.<init>(RpmPackageProposalsList.java:47)
 	at org.eclipse.linuxtools.internal.rpm.ui.editor.RpmPackageBuildProposalsJob.run(RpmPackageBuildProposalsJob.java:122)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+=======
+>>>>>>> Stashed changes
