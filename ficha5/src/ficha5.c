@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ficha-5.c
+ Name        : ficha_5.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -10,17 +10,21 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "ficha5.h"
+#include "ficha_5.h"
+
 int main(void) {
 
-<<<<<<< Updated upstream
 	//levantamento(350);
-	pin2();
+
+	//pin2();
+    //puts("");
+
+    //calculartt(1, 30, 10, 3, 40, 20);
+
+    adivinhaN();
+
+
 	return 0;
-=======
 
-	levantamento(4400);
-
-	return EXIT_SUCCESS;
->>>>>>> Stashed changes
 }
+
