@@ -2,6 +2,7 @@
 <<<<<<<=Updated upstream
 >>>>>>>=Stashed changes
 LaunchTargetManager/configs/Ficha-4.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Ficha6.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/Ficha_3.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/ficha-5.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/ficha5.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -11,7 +12,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Ficha_3.exe,org.eclipse.launchbar.core.descriptorType.default\:Ficha-4.exe,org.eclipse.launchbar.core.descriptorType.default\:test-variaveislocais.exe,org.eclipse.launchbar.core.descriptorType.default\:test-ficha5.exe,org.eclipse.launchbar.core.descriptorType.default\:ficha-5.exe,org.eclipse.launchbar.core.descriptorType.default\:ficha5.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Ficha_3.exe,org.eclipse.launchbar.core.descriptorType.default\:Ficha-4.exe,org.eclipse.launchbar.core.descriptorType.default\:test-variaveislocais.exe,org.eclipse.launchbar.core.descriptorType.default\:test-ficha5.exe,org.eclipse.launchbar.core.descriptorType.default\:ficha-5.exe,org.eclipse.launchbar.core.descriptorType.default\:ficha5.exe,org.eclipse.launchbar.core.descriptorType.default\:Ficha6.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Ficha-4.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Ficha-4.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
