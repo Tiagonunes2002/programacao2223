@@ -49,7 +49,7 @@ printf("\n O numero do valor menor e  %d.", indexnummin);
 // ------------------------  ex 5 ----------------------------------------
 float media = indexofMedia(array, size);
 
-printf("\n A media e de  %f.", media);
+printf("\n A media e de  %.2f", media);
 
 
 return 0;
